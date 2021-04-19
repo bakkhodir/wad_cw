@@ -1,0 +1,12 @@
+\\peter\ZDrive\00007527\Desktop\CourseRater\CourseRater.DAL\bin\Debug\netcoreapp3.1\CourseRater.DAL.deps.json
+\\peter\ZDrive\00007527\Desktop\CourseRater\CourseRater.DAL\bin\Debug\netcoreapp3.1\CourseRater.DAL.dll
+\\peter\ZDrive\00007527\Desktop\CourseRater\CourseRater.DAL\obj\Debug\netcoreapp3.1\CourseRater.DAL.csprojAssemblyReference.cache
+\\peter\ZDrive\00007527\Desktop\CourseRater\CourseRater.DAL\obj\Debug\netcoreapp3.1\CourseRater.DAL.AssemblyInfoInputs.cache
+\\peter\ZDrive\00007527\Desktop\CourseRater\CourseRater.DAL\obj\Debug\netcoreapp3.1\CourseRater.DAL.AssemblyInfo.cs
+\\peter\ZDrive\00007527\Desktop\CourseRater\CourseRater.DAL\bin\Debug\netcoreapp3.1\CourseRater.DAL.runtimeconfig.json
+\\peter\ZDrive\00007527\Desktop\CourseRater\CourseRater.DAL\bin\Debug\netcoreapp3.1\CourseRater.DAL.runtimeconfig.dev.json
+\\peter\ZDrive\00007527\Desktop\CourseRater\CourseRater.DAL\bin\Debug\netcoreapp3.1\CourseRater.DAL.pdb
+\\peter\ZDrive\00007527\Desktop\CourseRater\CourseRater.DAL\obj\Debug\netcoreapp3.1\CourseRater.DAL.csproj.CoreCompileInputs.cache
+\\peter\ZDrive\00007527\Desktop\CourseRater\CourseRater.DAL\obj\Debug\netcoreapp3.1\CourseRater.DAL.dll
+\\peter\ZDrive\00007527\Desktop\CourseRater\CourseRater.DAL\obj\Debug\netcoreapp3.1\CourseRater.DAL.pdb
+\\peter\ZDrive\00007527\Desktop\CourseRater\CourseRater.DAL\obj\Debug\netcoreapp3.1\CourseRater.DAL.genruntimeconfig.cache

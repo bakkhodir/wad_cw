@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div ng-app="CourseRater">
+    <div ng-view></div>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+<script type="text/javascript">
+    angular
+        .module('CourseRater', ['ngRoute'])
+        .config(function ($routeProvider) {
+            $routeProvider
+                .when('/', {
+                    templateUrl: 'pages/index.html',
+                    controller: 'IndexController'
+                })
+                .when('/modules', {
+                    templateUrl: 'pages/modules.html',
+                    controller: 'ModulesController'
+                })
+                .when('/tutors', {
+                    templateUrl: 'pages/tutors.html',
+                    controller: 'TutorsController'              
+                })
+                .otherwise({
+                    redirectTo: '/'
+                });
+        })
+        .controller('IndexController', ['$scope', '$http', function ($scope, $http) {
+            $scope.message = 'Welcome!';
+        }])
+        .controller('ModulesController', ['$scope', '$http', function ($scope, $http) {
+            $scope.modules = [];
+            $http.get('@Url.Action("GetModules", "Modules")')
+                .then(function (response) {
+                    $scope.modules = response.data;
+                });
+        }])
+        .controller('TutorsController', ['$scope', '$http', function ($scope, $http) {
+            $scope.tutors = [];
+            $http.get('@Url.Action("GetTutors", "Tutors")')
+                .then(function (response) {
+                    $scope.tutors = response.data;
+                });
+        }]);
+
+</script>
